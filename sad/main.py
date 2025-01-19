@@ -35,7 +35,7 @@ speed_y = 3
 
 running = True
 finish = False
-while not running:
+while running:
     if not finish:
         window.fill(bkg_color)
         ball.reset(window)
